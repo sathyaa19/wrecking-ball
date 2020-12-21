@@ -12,13 +12,7 @@ class Rope {
         World.add(world,this.rope);
     }
      
-    attach(body) {
-        this.rope.bodyA = body;
-      }
     
-      fly() {
-        this.rope.bodyA = null;
-      }
 
     display(){
         if(this.rope.bodyA){
